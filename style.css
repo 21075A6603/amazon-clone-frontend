@@ -1,0 +1,47 @@
+*{
+margin: 0;
+font-family: Arial;
+border:border-box;
+}
+.navbar{
+        height: 60px;
+        background-color: #0f1111;
+        color: white;
+        /* to displey the content in the same line: */
+        display: flex;
+        align-items: center;
+
+}
+.nav-logo{
+        /* margin-top: 1px; */
+        height: 50px;
+        width: 100px;
+}
+.logo{
+        /* margin-top: 5px; */
+        background-image: url("amazon_logo.png");
+        height: 50px;
+        width: 100px;
+        background-size: cover;
+}
+.border{
+        border: 2px solid transparent;
+}
+.border:hover{
+        border: 1.5px solid white;
+}
+/* for the loaction symbol area like text ND LOGO: */
+.add-first{
+        color: #cccccc;
+        font-size: 0.85rem;
+        margin-left: 15px;
+        
+}
+.add-sec{
+        font-size: 1rem;
+        margin-left: 3px;
+}
+.add-icon{
+        display: flex;
+        align-items: center;
+}
